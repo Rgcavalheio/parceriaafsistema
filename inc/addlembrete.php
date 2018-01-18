@@ -12,7 +12,7 @@
 
 
 
-        <form id="form" name="form" action="<?php echo BASEURL; ?>perfil/add.php" method="post">
+        <form id="addlembrete" name="addlembrete" action="<?php echo BASEURL; ?>perfil/add.php" method="post">
           <!-- area de campos do form -->
           
           <div class="row">

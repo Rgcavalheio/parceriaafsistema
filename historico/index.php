@@ -10,11 +10,13 @@ check_acesso(2);
 <header>
 
 	<link rel="stylesheet" href="<?php echo BASEURL; ?>css/custom.css">
-	<style type="text/css">
-		.data{
-			width: 60px !important;
-		}
-	</style>
+<style type="text/css">
+
+.sorting {
+	width:150px !important;
+
+}
+</style>
 
 
 
@@ -40,18 +42,18 @@ check_acesso(2);
 <div id="alert"></div>
 
 
-<table class="table table-bordered table-hover" id="id_da_tabela">
+<table  class="table table-bordered table-hover" id="historico">
 	<thead>
 		<tr>
-			<th width="240px">ID</th>
-			<th width="240px">Data</th>
-			<th width="120px">Contato</th>
-			<th width="120px">Cidade</th>
-			<th width="200px">Telefone</th>
-			<th width="120px">E-mail</th>
-			<th width="120px">Vendedor</th>
-			<th width="120px">Proposta</th>
-			<th width="120px"></th>
+			<th width="100px">ID</th>
+			<th width="100px">Data</th>
+			<th width="100px">Contato</th>
+			<th width="100px">Cidade</th>
+			<th width="100px">Telefone</th>
+			<th width="100px">E-mail</th>
+			<th width="100px">Vendedor</th>
+			<th width="100px">Proposta</th>
+			<th width="100px"></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -101,18 +103,17 @@ check_acesso(2);
 		<?php include(FOOTER_TEMPLATE); ?>
 
 
-		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"/>
 		<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 
 
 		<script>
 			$(document).ready(function(){
-				$('#id_da_tabela').DataTable({
+				$('#historico').DataTable({
 					"order": [[ 0, "desc" ]],
 					"bInfo" : false,
 					paging: true,
-					styleClass="coluna1,coluna2, coluna3,coluna4, coluna5,coluna6, coluna7,coluna8,coluna9"
-										"searching": true,
+					"searching": true,
 					"language": {
 						"lengthMenu": "Mostrando _MENU_ registros por página",
 						"zeroRecords": "Nada encontrado",
