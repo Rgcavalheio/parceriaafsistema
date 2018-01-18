@@ -105,7 +105,7 @@ check_acesso(2);
 		<script>
 			$(document).ready(function(){
 				$('#id_da_tabela').DataTable({
-					"order": [[ 1, "desc" ]],
+					"order": [[ 0, "desc" ]],
 					"bInfo" : false,
 					paging: true,
 										"searching": true,
