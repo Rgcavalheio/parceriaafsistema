@@ -15,7 +15,7 @@
 # *.sublime-project
 
 # sftp configuration file
-config.php
+/config.php
 propostas_geradas/
 
 # Package control specific files
