@@ -10,6 +10,11 @@ check_acesso(2);
 <header>
 
 	<link rel="stylesheet" href="<?php echo BASEURL; ?>css/custom.css">
+	<style type="text/css">
+		.data{
+			width: 60px !important;
+		}
+	</style>
 
 
 
@@ -38,7 +43,7 @@ check_acesso(2);
 <table class="table table-bordered table-hover" id="id_da_tabela">
 	<thead>
 		<tr>
-			<th width="240px">Data</th>
+			<th class="data" width="240px">Data</th>
 			<th width="120px">Contato</th>
 			<th width="120px">Cidade</th>
 			<th width="200px">Telefone</th>
