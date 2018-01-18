@@ -11,14 +11,14 @@ define('DB_USER', 'parceriaafsist');
 /** Senha do banco de dados MySQL */
 define('DB_PASSWORD', '3791645j');
 /** nome do host do MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql.parceriaafsistema.com.br');
 /** caminho absoluto para a pasta do sistema **/
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 	
 /** caminho no server para o sistema **/
 if ( !defined('BASEURL') )
-	define('BASEURL', '/parceriaafsistema/');
+	define('BASEURL', '/');
 	
 /** caminho do arquivo de banco de dados **/
 if ( !defined('DBAPI') )
