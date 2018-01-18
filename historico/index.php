@@ -43,7 +43,8 @@ check_acesso(2);
 <table class="table table-bordered table-hover" id="id_da_tabela">
 	<thead>
 		<tr>
-			<th class="data" width="240px">Data</th>
+			<th width="240px">ID</th>
+			<th width="240px">Data</th>
 			<th width="120px">Contato</th>
 			<th width="120px">Cidade</th>
 			<th width="200px">Telefone</th>
@@ -66,6 +67,8 @@ check_acesso(2);
 
 			?>
 			<tr>
+
+					<td><?php  echo $historico['id'];  ?></td>	
 				<td><?php 
 					$newDate = date("d-m-Y", strtotime($historico['data']));
 					echo $newDate;
