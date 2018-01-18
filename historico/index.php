@@ -111,6 +111,7 @@ check_acesso(2);
 					"order": [[ 0, "desc" ]],
 					"bInfo" : false,
 					paging: true,
+					styleClass="coluna1,coluna2, coluna3,coluna4, coluna5,coluna6, coluna7,coluna8,coluna9"
 										"searching": true,
 					"language": {
 						"lengthMenu": "Mostrando _MENU_ registros por página",

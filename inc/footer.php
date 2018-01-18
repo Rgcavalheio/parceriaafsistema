@@ -24,7 +24,7 @@ include('lembreteaviso.php'); ?>
 
 <script type="text/javascript" src="<?php echo BASEURL; ?>js/jquery.mask.min.js"/></script>
 
-	<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+	
 		
 
 
